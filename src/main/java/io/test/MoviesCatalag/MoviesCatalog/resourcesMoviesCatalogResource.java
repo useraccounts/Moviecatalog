@@ -17,7 +17,7 @@ public class resourcesMoviesCatalogResource {
 	
 	@GetMapping("/movies/{movieId}")
 	public MovieInfo getMovieById(@PathVariable("movieId") String id) {
-		//test kiuuuuu
+		//test kiuuuuu ssssss
 		return restTemplate.getForObject("http://Movies-Info/movieInfo/1", MovieInfo.class);
 		
 	}
